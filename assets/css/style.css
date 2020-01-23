@@ -2,7 +2,28 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    font-weight: 800;
+header {
+    background-image: url('../img/hero-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left; 
+}
+
+.bg-mint {
+    background-color: darkcyan;
+}
+
+.text-cyan {
+    color: darkcyan;
+}
+
+.carousel-indicators {
+    top: 70px;
+ 
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
 }
 
